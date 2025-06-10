@@ -21,4 +21,11 @@ public class BootApplication {
 		return "Welcome to Ashok IT - Software Training";
 	}
 
+	// BUG - 123
+	
+	@GetMapping("/greet")
+	public String getGreet() {
+		// in progress
+	}
+
 }
